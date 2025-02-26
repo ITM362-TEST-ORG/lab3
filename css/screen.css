@@ -204,27 +204,42 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
-/* form styling */
-form {
-  max-width: 500px;
-  width: 100%;
-  padding: 5em;
-  border-radius: 8px;
-  background-color: #3b7b7a;
-}
-
 /* background styling */
 body {
   background-color: #eae3c3;
 }
 
-/* button styling */
+/* form styling */
+form {
+  max-width: 500px;
+  width: 100%;  
+  padding: 2.5em;  /*form outisde padding*/
+  border-radius: 8px;
+  background-color: #3b7b7a;
+}
 
+/* label styling */
+label {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* button styling */
 input[type="submit"] {
   background: #c94b4b;
   color: #414642;
 }
 
+/* styling for email text field and subscribe button */
+input[type="email"],
+input[type="submit"] {
+  background: #c94b4b;
+  border-radius: 10px; /* how rounded the corners are */
+  font-size: 1em;
+  width: 100%;
+  padding: 0.5em;
+}
 
 
 
