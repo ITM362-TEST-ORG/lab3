@@ -202,6 +202,13 @@ label {
   display: block;
 }
 
+/* body alighment */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ===== LAYOUT STYLES ====== */
 
 /* background styling */
