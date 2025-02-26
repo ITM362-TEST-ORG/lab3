@@ -205,10 +205,13 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 body {
-  background-color: yellow;
+  background-color: eae3c3;
 }
 
-
+input[type="submit"] {
+  background: #c94b4b;
+  color: 414642;
+}
 
 /* ===== STATE STYLES ======= */
 
