@@ -204,14 +204,29 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
-body {
-  background-color: eae3c3;
+/* form styling */
+form {
+  max-width: 500px;
+  width: 100%;
+  padding: 5em;
+  border-radius: 8px;
+  background-color: #3b7b7a;
 }
+
+/* background styling */
+body {
+  background-color: #eae3c3;
+}
+
+/* button styling */
 
 input[type="submit"] {
   background: #c94b4b;
-  color: 414642;
+  color: #414642;
 }
+
+
+
 
 /* ===== STATE STYLES ======= */
 
