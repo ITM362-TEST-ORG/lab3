@@ -241,6 +241,8 @@ p {
 
 /* form styling */
 form {
+  margin-top: 6rem;
+  border-radius: 10px;
   max-width: 500px;
   width: 100%;  
   padding: 2.5em;  /*form outisde padding*/
