@@ -8,6 +8,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
+/*imported font */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+</style>
+
 /* Forms
    ========================================================================== */
 
@@ -213,8 +218,14 @@ body {
 
 /* background styling */
 body {
-  background-color: #eae3c3;
+  background-color: #191a1b;
 }
+
+/* text colour */
+h1, p {
+  color: #cccbc0;
+}
+
 
 /* form styling */
 form {
@@ -222,26 +233,26 @@ form {
   width: 100%;  
   padding: 2.5em;  /*form outisde padding*/
   border-radius: 8px;
-  background-color: #3b7b7a;
+  background-color: #323437;
 }
 
-/* label styling */
+/* label for email and age verification styling */
 label {
   font-size: 1em;
   display: block;
   margin-bottom: 0.5em;
+  color: #cccbc0;
 }
 
 /* button styling */
 input[type="submit"] {
-  background: #c94b4b;
   color: #414642;
 }
 
 /* styling for email text field and subscribe button */
 input[type="email"],
 input[type="submit"] {
-  background: #c94b4b;
+  background: #e2b714;
   border-radius: 10px; /* how rounded the corners are */
   font-size: 1em;
   width: 100%;
