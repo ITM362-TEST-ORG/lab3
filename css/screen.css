@@ -239,13 +239,11 @@ p {
   margin-bottom: 2.5rem; 
 }
 
-
 /* form styling */
 form {
   max-width: 500px;
   width: 100%;  
   padding: 2.5em;  /*form outisde padding*/
-  border-radius: 8px;
   background-color: #323437;
 }
 
@@ -255,12 +253,15 @@ label {
   display: block;
   margin-bottom: 0.5em;
   color: #cccbc0;
+  display: inline-flex; /* aligns the checkbox with the text*/
+  align-items: center;
 }
 
 /* submit button styling */
 input[type="submit"] {
   color: #414642;
   font-family: 'Major Mono Display', monospace;
+  margin-top: 1rem;
 }
 
 /* email styling */
@@ -285,7 +286,6 @@ input[type="checkbox"] {
   width: 1rem;  
   height: 1rem;
   accent-color: #e2b714;
-  margin-bottom: 1.5rem;
   cursor: pointer;
   vertical-align: middle;
 }
