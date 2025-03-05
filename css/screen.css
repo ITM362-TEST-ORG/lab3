@@ -228,6 +228,12 @@ h1, p {
   color: #cccbc0;
 }
 
+/* padding for p */
+p {
+  margin-bottom: 2.5rem; 
+}
+
+
 
 /* form styling */
 form {
@@ -249,6 +255,7 @@ label {
 /* button styling */
 input[type="submit"] {
   color: #414642;
+  font-family: 'Major Mono Display', monospace;
 }
 
 /* styling for email text field and subscribe button */
