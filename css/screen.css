@@ -218,13 +218,13 @@ body {
 
 /* background styling */
 body {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Major Mono Display','Courier New', monospace;
   background-color: #191a1b;
 }
 
 /* text colour */
 h1, p {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Major Mono Display','Courier New', monospace;
   color: #cccbc0;
 }
 
@@ -260,14 +260,14 @@ label {
 /* submit button styling */
 input[type="submit"] {
   color: #414642;
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Major Mono Display','Courier New', monospace;
   margin-top: 1rem;
 }
 
 /* email styling */
 input[type="email"] {
   color: #414642;
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Major Mono Display','Courier New', monospace;
   margin-bottom: 1.5rem;
 }
 
