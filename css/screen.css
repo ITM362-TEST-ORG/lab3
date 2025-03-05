@@ -259,14 +259,14 @@ label {
 
 /* submit button styling */
 input[type="submit"] {
-  color: #414642;
+  color: #191a1b;
   font-family: 'Major Mono Display','Courier New', monospace;
   margin-top: 1rem;
 }
 
 /* email styling */
 input[type="email"] {
-  color: #414642;
+  color: #191a1b;
   font-family: 'Major Mono Display','Courier New', monospace;
   margin-bottom: 1.5rem;
 }
@@ -274,7 +274,7 @@ input[type="email"] {
 /* styling for email text field and subscribe button */
 input[type="email"],
 input[type="submit"] {
-  background: #e2b714;
+  background: #646669;
   border-radius: 10px; /* how rounded the corners are */
   font-size: 1em;
   width: 100%;
@@ -285,7 +285,7 @@ input[type="submit"] {
 input[type="checkbox"] {
   width: 1rem;  
   height: 1rem;
-  accent-color: #e2b714;
+  accent-color: #191a1b;
   cursor: pointer;
   vertical-align: middle;
 }
