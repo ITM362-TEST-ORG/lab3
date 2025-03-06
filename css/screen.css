@@ -214,6 +214,14 @@ body {
   align-items: center;
 }
 
+html, body {
+  margin: 0;
+  padding 0;
+  box-sizing: border-box;
+  height: 80vh; /* allows elements to size relative to the height of the browser */
+}
+
+
 /* ===== LAYOUT STYLES ====== */
 
 /* background styling */
@@ -241,7 +249,6 @@ p {
 
 /* form styling */
 form {
-  margin-top: 6rem;
   border-radius: 10px;
   max-width: 500px;
   width: 100%;  
